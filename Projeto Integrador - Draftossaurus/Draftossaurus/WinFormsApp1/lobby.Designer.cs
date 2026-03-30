@@ -48,6 +48,7 @@
             listarpartidas.TabIndex = 1;
             listarpartidas.Text = "Conectar";
             listarpartidas.UseVisualStyleBackColor = true;
+            listarpartidas.Click += listarpartidas_Click;
             // 
             // listaplayers
             // 
@@ -56,6 +57,7 @@
             listaplayers.Name = "listaplayers";
             listaplayers.Size = new Size(150, 224);
             listaplayers.TabIndex = 5;
+            listaplayers.SelectedIndexChanged += listaplayers_SelectedIndexChanged;
             // 
             // label1
             // 
@@ -118,6 +120,7 @@
             datagridpartidas.RowHeadersWidth = 51;
             datagridpartidas.Size = new Size(394, 348);
             datagridpartidas.TabIndex = 12;
+            datagridpartidas.CellContentClick += datagridpartidas_CellContentClick;
             // 
             // lobby
             // 

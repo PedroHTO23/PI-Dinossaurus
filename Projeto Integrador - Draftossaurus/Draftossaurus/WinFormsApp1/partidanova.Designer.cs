@@ -75,6 +75,7 @@
             idjogador.Size = new Size(55, 23);
             idjogador.TabIndex = 3;
             idjogador.Text = "label2";
+            idjogador.Click += idjogador_Click;
             // 
             // label3
             // 

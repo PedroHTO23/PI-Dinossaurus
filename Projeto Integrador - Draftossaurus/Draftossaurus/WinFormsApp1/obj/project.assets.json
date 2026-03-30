@@ -8,23 +8,23 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jbdeo\\.nuget\\packages\\": {},
+    "C:\\Users\\gusta\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbdeo\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\jbdeo\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\WinFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\jbdeo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbdeo\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\gusta\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gusta\\source\\repos\\Projeto Integrador - Draftossaurus\\Draftossaurus\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jbdeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

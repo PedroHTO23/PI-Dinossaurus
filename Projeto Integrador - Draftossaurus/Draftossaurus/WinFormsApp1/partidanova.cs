@@ -19,5 +19,10 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void idjogador_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

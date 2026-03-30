@@ -12,11 +12,12 @@ namespace WinFormsApp1
 
     public partial class lobby : Form
     {
-        public required string senhajogador;
+        public  string senhajogador;
         Jogador player = new Jogador();
         public lobby(Jogador player1)
         {
             InitializeComponent();
+            player = player1;
             datagridpartidas.DataSource = Partida.ListarPartidas();
 
             datagridpartidas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -49,15 +50,30 @@ namespace WinFormsApp1
         }
 
         private void senhapartida_TextChanged_1(object sender, EventArgs e)
-        { 
+        {
             player.senha = senhapartida.Text;
-            player.id = Convert.ToString(nomedapartida.Text);
+            player.id = Convert.ToInt16(nomedapartida.Text);
             player.grupo = grupo.Text;
         }
 
         private void grupo_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void datagridpartidas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void listaplayers_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listarpartidas_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

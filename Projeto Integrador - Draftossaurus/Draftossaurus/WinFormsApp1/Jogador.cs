@@ -5,13 +5,14 @@ using System.Text;
 
 namespace WinFormsApp1
 {
-    public class Jogador 
+    public class Jogador
     {
 
-        public  string id { get; set; }
+        public int id { get; set; }
 
-        public  string senha { get; set; }
+        public string senha { get; set; }
 
-        public  string grupo { get; set; }
+        public string grupo { get; set; }
+    }
 
 }

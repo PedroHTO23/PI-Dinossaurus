@@ -103,6 +103,7 @@
             maoatual.Name = "maoatual";
             maoatual.Size = new Size(123, 124);
             maoatual.TabIndex = 6;
+            maoatual.SelectedIndexChanged += maoatual_SelectedIndexChanged;
             // 
             // label7
             // 

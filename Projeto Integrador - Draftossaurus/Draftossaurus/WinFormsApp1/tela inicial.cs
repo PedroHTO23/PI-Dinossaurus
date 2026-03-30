@@ -17,7 +17,7 @@ namespace WinFormsApp1
         
         public void entralobby_Click(object sender, EventArgs e)
         {
-            lobby Lobby = new lobby();
+            lobby Lobby = new lobby(player1);
             Lobby.ShowDialog();
             this.Hide();
         }
@@ -29,8 +29,11 @@ namespace WinFormsApp1
 
         private void nomegrupo_TextChanged(object sender, EventArgs e)
         {
-            player1.grupo = nomegrupo.Text; 
-            this.player1.id = nomegrupo.Text;
+            player1.grupo = nomegrupo.Text;
+            if (int.TryParse(nomegrupo.Text, out int parsedId))
+            {
+                player1.id = parsedId;
+            }
         }
     }
 }
